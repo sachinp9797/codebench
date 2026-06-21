@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.tsbuildinfo
+results/*.json
+.env
+*.log
+.playwright-mcp/
+.superpowers/
+codebench-ui.png
