@@ -1,0 +1,13 @@
+{
+  "name": "@codebench/executor",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "test": "vitest run" },
+  "dependencies": {
+    "@codebench/core": "workspace:*",
+    "dockerode": "^4.0.0",
+    "tsx": "^4.22.4"
+  },
+  "devDependencies": { "@types/dockerode": "^3.3.0" }
+}
