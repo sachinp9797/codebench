@@ -1,0 +1,11 @@
+{
+  "id": "easy/fizzbuzz",
+  "prompt": "Implement `fizzbuzz(n: number): string` returning 'Fizz' if divisible by 3, 'Buzz' if by 5, 'FizzBuzz' if both, else the number as a string.",
+  "canonicalSolution": "export function fizzbuzz(n: number): string { const s = (n%3===0?'Fizz':'')+(n%5===0?'Buzz':''); return s || String(n); }",
+  "test": "assert(fizzbuzz(3)==='Fizz'); assert(fizzbuzz(5)==='Buzz'); assert(fizzbuzz(15)==='FizzBuzz'); assert(fizzbuzz(7)==='7'); assert(fizzbuzz(1)==='1'); assert(fizzbuzz(30)==='FizzBuzz'); assert(fizzbuzz(9)==='Fizz'); assert(fizzbuzz(10)==='Buzz');",
+  "entryPoint": "fizzbuzz",
+  "language": "typescript",
+  "difficulty": "easy",
+  "releaseDate": "2026-01-15",
+  "tags": ["math"]
+}

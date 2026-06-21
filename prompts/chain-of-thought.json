@@ -1,0 +1,7 @@
+{
+  "id": "chain-of-thought",
+  "label": "Chain of thought",
+  "systemPrompt": "Think step by step about edge cases before coding. Then return your final solution as a single fenced ```ts code block.",
+  "temperature": 0,
+  "description": "Encourages reasoning before the answer."
+}

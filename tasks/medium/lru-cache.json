@@ -1,0 +1,11 @@
+{
+  "id": "medium/lru-cache",
+  "prompt": "Implement a `LRUCache` class with constructor `new LRUCache(capacity: number)`, method `get(key: number): number` (returns -1 if missing), and method `put(key: number, value: number): void`. When full, evict the least-recently-used key. Both operations must be O(1).",
+  "canonicalSolution": "export class LRUCache { private cap: number; private map: Map<number,number>; constructor(capacity: number) { this.cap = capacity; this.map = new Map(); } get(key: number): number { if (!this.map.has(key)) return -1; const val = this.map.get(key)!; this.map.delete(key); this.map.set(key, val); return val; } put(key: number, value: number): void { if (this.map.has(key)) this.map.delete(key); else if (this.map.size >= this.cap) this.map.delete(this.map.keys().next().value!); this.map.set(key, value); } }",
+  "test": "const c = new LRUCache(2); c.put(1,1); c.put(2,2); assert(c.get(1)===1); c.put(3,3); assert(c.get(2)===-1); c.put(4,4); assert(c.get(1)===-1); assert(c.get(3)===3); assert(c.get(4)===4); const c2 = new LRUCache(1); c2.put(1,1); c2.put(2,2); assert(c2.get(1)===-1); assert(c2.get(2)===2);",
+  "entryPoint": "LRUCache",
+  "language": "typescript",
+  "difficulty": "medium",
+  "releaseDate": "2026-02-01",
+  "tags": ["data-structures", "hashmap", "linked-list"]
+}

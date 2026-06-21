@@ -1,0 +1,11 @@
+{
+  "id": "easy/count-vowels",
+  "prompt": "Implement `countVowels(s: string): number` that counts the number of vowels (a, e, i, o, u — case-insensitive) in the string.",
+  "canonicalSolution": "export function countVowels(s: string): number { return (s.match(/[aeiou]/gi) ?? []).length; }",
+  "test": "assert(countVowels('hello')===2); assert(countVowels('')===0); assert(countVowels('rhythm')===0); assert(countVowels('AEIOU')===5); assert(countVowels('Hello World')===3); assert(countVowels('aAeEiIoOuU')===10);",
+  "entryPoint": "countVowels",
+  "language": "typescript",
+  "difficulty": "easy",
+  "releaseDate": "2026-01-15",
+  "tags": ["string", "regex"]
+}

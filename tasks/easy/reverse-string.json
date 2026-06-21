@@ -1,0 +1,11 @@
+{
+  "id": "easy/reverse-string",
+  "prompt": "Implement `reverseString(s: string): string` that returns the string reversed.",
+  "canonicalSolution": "export function reverseString(s: string): string { return s.split('').reverse().join(''); }",
+  "test": "assert(reverseString('hello')==='olleh'); assert(reverseString('')===''); assert(reverseString('a')==='a'); assert(reverseString('abcd')==='dcba'); assert(reverseString('racecar')==='racecar'); assert(reverseString('  hi')==='ih  ');",
+  "entryPoint": "reverseString",
+  "language": "typescript",
+  "difficulty": "easy",
+  "releaseDate": "2026-01-15",
+  "tags": ["string"]
+}

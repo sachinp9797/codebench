@@ -1,0 +1,11 @@
+{
+  "id": "medium/valid-parentheses",
+  "prompt": "Implement `validParentheses(s: string): boolean` that returns true if the string of brackets `()[]{}` is valid (every opener has a matching closer in the correct order).",
+  "canonicalSolution": "export function validParentheses(s: string): boolean { const stack: string[] = []; const pairs: Record<string,string> = {')':'(', ']':'[', '}':'{'}; for (const c of s) { if ('([{'.includes(c)) stack.push(c); else if (stack.pop() !== pairs[c]) return false; } return stack.length === 0; }",
+  "test": "assert(validParentheses('()')===true); assert(validParentheses('()[]{}')=== true); assert(validParentheses('(]')===false); assert(validParentheses('')===true); assert(validParentheses('([)]')===false); assert(validParentheses('{[]}')===true); assert(validParentheses('((((')===false); assert(validParentheses(']')===false); assert(validParentheses('([]{}())')===true);",
+  "entryPoint": "validParentheses",
+  "language": "typescript",
+  "difficulty": "medium",
+  "releaseDate": "2026-02-01",
+  "tags": ["string", "stack"]
+}

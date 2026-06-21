@@ -1,0 +1,11 @@
+{
+  "id": "hard/word-break",
+  "prompt": "Implement `wordBreak(s: string, wordDict: string[]): boolean` returning true if `s` can be segmented into a space-separated sequence of one or more dictionary words (words may reuse).",
+  "canonicalSolution": "export function wordBreak(s: string, wordDict: string[]): boolean { const words = new Set(wordDict); const n = s.length; const dp = new Array<boolean>(n + 1).fill(false); dp[0] = true; for (let i = 1; i <= n; i++) { for (let j = 0; j < i; j++) { if (dp[j] && words.has(s.slice(j, i))) { dp[i] = true; break; } } } return dp[n]!; }",
+  "test": "assert(wordBreak('leetcode',['leet','code'])===true); assert(wordBreak('applepenapple',['apple','pen'])===true); assert(wordBreak('catsandog',['cats','dog','sand','and','cat'])===false); assert(wordBreak('',['a'])===true); assert(wordBreak('a',['b'])===false); assert(wordBreak('aaaaaaa',['aa'])===false); assert(wordBreak('aaaaaaa',['aaa','aaaa'])===true); assert(wordBreak('aaaaaaa',['a','aa','aaa'])===true);",
+  "entryPoint": "wordBreak",
+  "language": "typescript",
+  "difficulty": "hard",
+  "releaseDate": "2026-03-01",
+  "tags": ["dynamic-programming", "string", "backtracking"]
+}

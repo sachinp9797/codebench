@@ -1,0 +1,11 @@
+{
+  "id": "easy/is-palindrome",
+  "prompt": "Implement `isPalindrome(s: string): boolean` that returns true if `s` reads the same forwards and backwards (case-sensitive, no normalization).",
+  "canonicalSolution": "export function isPalindrome(s: string): boolean { const r = s.split('').reverse().join(''); return s === r; }",
+  "test": "assert(isPalindrome('racecar')===true); assert(isPalindrome('hello')===false); assert(isPalindrome('')===true); assert(isPalindrome('a')===true); assert(isPalindrome('Aa')===false); assert(isPalindrome('abba')===true); assert(isPalindrome('ab')===false);",
+  "entryPoint": "isPalindrome",
+  "language": "typescript",
+  "difficulty": "easy",
+  "releaseDate": "2026-01-15",
+  "tags": ["string"]
+}

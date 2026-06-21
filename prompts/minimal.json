@@ -1,0 +1,7 @@
+{
+  "id": "minimal",
+  "label": "Minimal",
+  "systemPrompt": "You are a coding assistant. Return only TypeScript code.",
+  "temperature": 0,
+  "description": "Baseline minimal instruction."
+}

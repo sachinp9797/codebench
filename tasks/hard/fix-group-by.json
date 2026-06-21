@@ -1,0 +1,11 @@
+{
+  "id": "hard/fix-group-by",
+  "prompt": "Fix the bug in this `groupBy` implementation. The function should partition an array into groups keyed by the result of `keyFn`, returning a `Record<string, T[]>` where each value is the subset of items that produced that key. Every item must appear in exactly one group.\n\n```ts\nexport function groupBy<T>(arr: T[], keyFn: (x: T) => string): Record<string, T[]> {\n  const result: Record<string, T[]> = {};\n  const defaultArr: T[] = [];\n  for (const item of arr) {\n    const k = keyFn(item);\n    result[k] = result[k] || defaultArr;\n    result[k].push(item);\n  }\n  return result;\n}\n```",
+  "canonicalSolution": "export function groupBy<T>(arr: T[], keyFn: (x: T) => string): Record<string, T[]> { const result: Record<string, T[]> = {}; for (const item of arr) { const k = keyFn(item); if (!result[k]) result[k] = []; result[k].push(item); } return result; }",
+  "test": "const g1 = groupBy([1,2,3,4], x => x % 2 === 0 ? 'even' : 'odd'); assert(JSON.stringify(g1.odd) === '[1,3]', 'odd group wrong: ' + JSON.stringify(g1.odd)); assert(JSON.stringify(g1.even) === '[2,4]', 'even group wrong: ' + JSON.stringify(g1.even)); const g2 = groupBy(['apple','avocado','banana','blueberry','cherry'], w => w[0]); assert(JSON.stringify(g2['a']) === '[\"apple\",\"avocado\"]', 'a group wrong'); assert(JSON.stringify(g2['b']) === '[\"banana\",\"blueberry\"]', 'b group wrong'); assert(JSON.stringify(g2['c']) === '[\"cherry\"]', 'c group wrong'); const g3 = groupBy([10,20,30], _ => 'all'); assert(JSON.stringify(g3['all']) === '[10,20,30]', 'single-group wrong'); const g4 = groupBy([], _ => 'x'); assert(Object.keys(g4).length === 0, 'empty array should return empty object'); const g5 = groupBy([1,2,3,4,5,6], x => x % 3 === 0 ? 'div3' : x % 3 === 1 ? 'rem1' : 'rem2'); assert(JSON.stringify(g5['div3']) === '[3,6]', 'div3 wrong'); assert(JSON.stringify(g5['rem1']) === '[1,4]', 'rem1 wrong'); assert(JSON.stringify(g5['rem2']) === '[2,5]', 'rem2 wrong');",
+  "entryPoint": "groupBy",
+  "language": "typescript",
+  "difficulty": "hard",
+  "releaseDate": "2026-03-01",
+  "tags": ["bug-fix", "closure", "array", "mutation"]
+}

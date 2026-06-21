@@ -1,0 +1,11 @@
+{
+  "id": "medium/group-anagrams",
+  "prompt": "Implement `groupAnagrams(strs: string[]): string[][]` that groups anagrams together. Order of groups and order within each group does not matter.",
+  "canonicalSolution": "export function groupAnagrams(strs: string[]): string[][] { const map = new Map<string, string[]>(); for (const s of strs) { const key = s.split('').sort().join(''); const group = map.get(key) ?? []; group.push(s); map.set(key, group); } return [...map.values()]; }",
+  "test": "const r1 = groupAnagrams(['eat','tea','tan','ate','nat','bat']); assert(r1.length===3); const sorted1 = r1.map(g=>g.slice().sort().join(',')).sort(); assert(sorted1[0]==='ate,eat,tea'); assert(sorted1[1]==='bat'); assert(sorted1[2]==='nat,tan'); const r2 = groupAnagrams(['']); assert(r2.length===1 && r2[0]!.length===1); const r3 = groupAnagrams(['a']); assert(r3.length===1 && r3[0]![0]==='a');",
+  "entryPoint": "groupAnagrams",
+  "language": "typescript",
+  "difficulty": "medium",
+  "releaseDate": "2026-02-01",
+  "tags": ["hashmap", "string", "sorting"]
+}

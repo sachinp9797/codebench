@@ -1,0 +1,11 @@
+{
+  "id": "easy/flatten-array",
+  "prompt": "Implement `flattenArray(arr: unknown[]): unknown[]` that recursively flattens a nested array of any depth into a single flat array, preserving order.",
+  "canonicalSolution": "export function flattenArray(arr: unknown[]): unknown[] { const result: unknown[] = []; for (const item of arr) { if (Array.isArray(item)) result.push(...flattenArray(item)); else result.push(item); } return result; }",
+  "test": "assert(JSON.stringify(flattenArray([1,[2,3]]))==='[1,2,3]'); assert(JSON.stringify(flattenArray([]))==='[]'); assert(JSON.stringify(flattenArray([1,[2,[3,[4]]]]))==='[1,2,3,4]'); assert(JSON.stringify(flattenArray([[[]]]))==='[]'); assert(JSON.stringify(flattenArray([1,2,3]))==='[1,2,3]'); assert(JSON.stringify(flattenArray([[1],[2],[3]]))==='[1,2,3]');",
+  "entryPoint": "flattenArray",
+  "language": "typescript",
+  "difficulty": "easy",
+  "releaseDate": "2026-01-15",
+  "tags": ["array", "recursion"]
+}

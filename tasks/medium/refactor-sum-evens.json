@@ -1,0 +1,11 @@
+{
+  "id": "medium/refactor-sum-evens",
+  "prompt": "Refactor this function to be clean, idiomatic TypeScript. It should still pass all tests.\n\n```ts\nexport function sumEvens(arr: number[]): number {\n  let total = 0;\n  for (let ii = 0; ii < arr.length; ii = ii + 1) {\n    if (arr[ii]! % 2 == 0) {\n      total = total + arr[ii]!;\n    }\n  }\n  return total;\n}\n```",
+  "canonicalSolution": "export function sumEvens(arr: number[]): number { return arr.filter(n => n % 2 === 0).reduce((acc, n) => acc + n, 0); }",
+  "test": "assert(sumEvens([1,2,3,4,5,6])===12); assert(sumEvens([])===0); assert(sumEvens([1,3,5])===0); assert(sumEvens([2,4,6])===12); assert(sumEvens([-2,1,-4])===(-6)); assert(sumEvens([0,1,2])===2);",
+  "entryPoint": "sumEvens",
+  "language": "typescript",
+  "difficulty": "medium",
+  "releaseDate": "2026-02-15",
+  "tags": ["refactor", "array", "functional"]
+}

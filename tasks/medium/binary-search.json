@@ -1,0 +1,11 @@
+{
+  "id": "medium/binary-search",
+  "prompt": "Implement `binarySearch(arr: number[], target: number): number` returning the index of `target` in the sorted array, or -1 if not found. Must run in O(log n).",
+  "canonicalSolution": "export function binarySearch(arr: number[], target: number): number { let lo = 0, hi = arr.length - 1; while (lo <= hi) { const mid = (lo + hi) >>> 1; if (arr[mid] === target) return mid; if (arr[mid]! < target) lo = mid + 1; else hi = mid - 1; } return -1; }",
+  "test": "assert(binarySearch([1,3,5,7,9],5)===2); assert(binarySearch([1,3,5,7,9],1)===0); assert(binarySearch([1,3,5,7,9],9)===4); assert(binarySearch([1,3,5,7,9],4)===-1); assert(binarySearch([],5)===-1); assert(binarySearch([42],42)===0); assert(binarySearch([42],0)===-1); assert(binarySearch([1,2,3,4,5,6,7,8,9,10],10)===9);",
+  "entryPoint": "binarySearch",
+  "language": "typescript",
+  "difficulty": "medium",
+  "releaseDate": "2026-02-01",
+  "tags": ["array", "binary-search"]
+}

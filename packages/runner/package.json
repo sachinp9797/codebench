@@ -1,0 +1,13 @@
+{
+  "name": "@codebench/runner",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "test": "vitest run" },
+  "dependencies": {
+    "@codebench/core": "workspace:*",
+    "@codebench/providers": "workspace:*",
+    "@codebench/executor": "workspace:*",
+    "@codebench/extractor": "workspace:*"
+  }
+}

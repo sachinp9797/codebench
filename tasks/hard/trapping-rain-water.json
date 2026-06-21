@@ -1,0 +1,11 @@
+{
+  "id": "hard/trapping-rain-water",
+  "prompt": "Implement `trap(height: number[]): number` that computes how much water can be trapped after raining given an elevation map where `height[i]` is the bar height at index i.",
+  "canonicalSolution": "export function trap(height: number[]): number { let lo = 0, hi = height.length - 1, lMax = 0, rMax = 0, water = 0; while (lo < hi) { if (height[lo]! <= height[hi]!) { if (height[lo]! >= lMax) lMax = height[lo]!; else water += lMax - height[lo]!; lo++; } else { if (height[hi]! >= rMax) rMax = height[hi]!; else water += rMax - height[hi]!; hi--; } } return water; }",
+  "test": "assert(trap([0,1,0,2,1,0,1,3,2,1,2,1])===6); assert(trap([4,2,0,3,2,5])===9); assert(trap([])===0); assert(trap([1])===0); assert(trap([1,2])===0); assert(trap([3,0,3])===3); assert(trap([3,0,0,3])===6); assert(trap([0,0,0])===0);",
+  "entryPoint": "trap",
+  "language": "typescript",
+  "difficulty": "hard",
+  "releaseDate": "2026-03-01",
+  "tags": ["array", "two-pointers", "dynamic-programming"]
+}
