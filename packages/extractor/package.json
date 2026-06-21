@@ -1,0 +1,8 @@
+{
+  "name": "@codebench/extractor",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "test": "vitest run" },
+  "dependencies": { "@codebench/core": "workspace:*" }
+}
