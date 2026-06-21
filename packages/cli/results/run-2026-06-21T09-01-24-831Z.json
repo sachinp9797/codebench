@@ -1,0 +1,1319 @@
+{
+  "runId": "run-2026-06-21T09-01-24-831Z",
+  "startedAt": "2026-06-21T09:01:24.834Z",
+  "pricingVersion": "2026-06-21",
+  "tasks": [
+    "easy/count-vowels",
+    "easy/fizzbuzz",
+    "easy/flatten-array",
+    "easy/is-palindrome",
+    "easy/max-subarray",
+    "easy/reverse-string",
+    "easy/two-sum",
+    "hard/fix-group-by",
+    "hard/median-two-sorted",
+    "hard/serialize-deserialize-bst",
+    "hard/trapping-rain-water",
+    "hard/word-break",
+    "medium/binary-search",
+    "medium/group-anagrams",
+    "medium/longest-substring",
+    "medium/lru-cache",
+    "medium/merge-intervals",
+    "medium/product-except-self",
+    "medium/refactor-sum-evens",
+    "medium/valid-parentheses"
+  ],
+  "models": [
+    {
+      "id": "mock:m1",
+      "provider": "mock",
+      "maxTokens": 4096
+    }
+  ],
+  "promptConfigs": [
+    {
+      "id": "chain-of-thought",
+      "label": "Chain of thought",
+      "systemPrompt": "Think step by step about edge cases before coding. Then return your final solution as a single fenced ```ts code block.",
+      "temperature": 0,
+      "description": "Encourages reasoning before the answer."
+    },
+    {
+      "id": "claude-md-strict",
+      "label": "CLAUDE.md strict",
+      "systemPrompt": "You are a senior TypeScript engineer. Write the minimum correct code that solves the problem. No speculative features. Handle edge cases the prompt implies. Return ONLY a single fenced ```ts code block with the requested export, no prose.",
+      "temperature": 0,
+      "description": "Strict CLAUDE.md-style instruction block."
+    },
+    {
+      "id": "minimal",
+      "label": "Minimal",
+      "systemPrompt": "You are a coding assistant. Return only TypeScript code.",
+      "temperature": 0,
+      "description": "Baseline minimal instruction."
+    }
+  ],
+  "results": [
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 61,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 65,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 67,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 66,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 70,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 50,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 75,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 176,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 68,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 132,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 73,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 76,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 70,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 66,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 64,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 97,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 70,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 69,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 107,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "mock:m1",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 72,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 91,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 95,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 97,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 96,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 100,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 79,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 105,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 206,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 97,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 162,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 103,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 106,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 99,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 96,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 93,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 126,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 100,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 99,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 137,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "mock:m1",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 102,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 46,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 49,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 52,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 50,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 55,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 34,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 60,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 160,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 52,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 116,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 57,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 60,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 54,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 51,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 48,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 81,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 54,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 53,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 91,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "mock:m1",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "empty"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 57,
+      "outputTokens": 1,
+      "costUsd": 0,
+      "ttftMs": 0,
+      "totalMs": 0,
+      "temperature": 0
+    }
+  ]
+}
