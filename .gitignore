@@ -6,4 +6,4 @@ results/*.json
 *.log
 .playwright-mcp/
 .superpowers/
-codebench-ui.png
+/codebench-ui.png
