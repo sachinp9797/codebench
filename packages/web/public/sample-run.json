@@ -1,0 +1,4948 @@
+{
+  "runId": "2026-06-21-portfolio-demo",
+  "startedAt": "2026-06-21T09:00:00.000Z",
+  "pricingVersion": "2026-06-21",
+  "tasks": [
+    "easy/count-vowels",
+    "easy/fizzbuzz",
+    "easy/flatten-array",
+    "easy/is-palindrome",
+    "easy/max-subarray",
+    "easy/reverse-string",
+    "easy/two-sum",
+    "hard/fix-group-by",
+    "hard/median-two-sorted",
+    "hard/serialize-deserialize-bst",
+    "hard/trapping-rain-water",
+    "hard/word-break",
+    "medium/binary-search",
+    "medium/group-anagrams",
+    "medium/longest-substring",
+    "medium/lru-cache",
+    "medium/merge-intervals",
+    "medium/product-except-self",
+    "medium/refactor-sum-evens",
+    "medium/valid-parentheses"
+  ],
+  "models": [
+    {
+      "id": "claude-opus-4-8",
+      "provider": "anthropic",
+      "maxTokens": 4096
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "provider": "anthropic",
+      "maxTokens": 4096
+    },
+    {
+      "id": "gpt-5",
+      "provider": "openai",
+      "maxTokens": 4096
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "provider": "gemini",
+      "maxTokens": 4096
+    }
+  ],
+  "promptConfigs": [
+    {
+      "id": "minimal",
+      "label": "Minimal",
+      "systemPrompt": "",
+      "temperature": 0
+    },
+    {
+      "id": "claude-md-strict",
+      "label": "CLAUDE.md strict",
+      "systemPrompt": "",
+      "temperature": 0
+    },
+    {
+      "id": "chain-of-thought",
+      "label": "Chain of thought",
+      "systemPrompt": "",
+      "temperature": 0
+    }
+  ],
+  "results": [
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 240,
+      "outputTokens": 512,
+      "costUsd": 0.013999999999999999,
+      "ttftMs": 982,
+      "totalMs": 982,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 181,
+      "outputTokens": 462,
+      "costUsd": 0.012454999999999999,
+      "ttftMs": 1890,
+      "totalMs": 1890,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 259,
+      "outputTokens": 485,
+      "costUsd": 0.013420000000000001,
+      "ttftMs": 1991,
+      "totalMs": 1991,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 222,
+      "outputTokens": 471,
+      "costUsd": 0.012885,
+      "ttftMs": 2992,
+      "totalMs": 2992,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 208,
+      "outputTokens": 421,
+      "costUsd": 0.011564999999999999,
+      "ttftMs": 2550,
+      "totalMs": 2550,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 248,
+      "outputTokens": 499,
+      "costUsd": 0.013715,
+      "ttftMs": 2633,
+      "totalMs": 2633,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 193,
+      "outputTokens": 478,
+      "costUsd": 0.012915000000000001,
+      "ttftMs": 1198,
+      "totalMs": 1198,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 189,
+      "outputTokens": 465,
+      "costUsd": 0.01257,
+      "ttftMs": 1698,
+      "totalMs": 1698,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 244,
+      "outputTokens": 453,
+      "costUsd": 0.012545,
+      "ttftMs": 1422,
+      "totalMs": 1422,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 477,
+      "costUsd": 0.01284,
+      "ttftMs": 2531,
+      "totalMs": 2531,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 182,
+      "outputTokens": 522,
+      "costUsd": 0.01396,
+      "ttftMs": 1935,
+      "totalMs": 1935,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 232,
+      "outputTokens": 445,
+      "costUsd": 0.012284999999999999,
+      "ttftMs": 3456,
+      "totalMs": 3456,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 197,
+      "outputTokens": 443,
+      "costUsd": 0.01206,
+      "ttftMs": 1689,
+      "totalMs": 1689,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 478,
+      "costUsd": 0.012865000000000001,
+      "ttftMs": 2277,
+      "totalMs": 2277,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 238,
+      "outputTokens": 472,
+      "costUsd": 0.01299,
+      "ttftMs": 2056,
+      "totalMs": 2056,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 219,
+      "outputTokens": 434,
+      "costUsd": 0.011945,
+      "ttftMs": 1907,
+      "totalMs": 1907,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 490,
+      "costUsd": 0.013165,
+      "ttftMs": 2610,
+      "totalMs": 2610,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 190,
+      "outputTokens": 424,
+      "costUsd": 0.01155,
+      "ttftMs": 2922,
+      "totalMs": 2922,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 224,
+      "outputTokens": 435,
+      "costUsd": 0.011994999999999999,
+      "ttftMs": 1013,
+      "totalMs": 1013,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 239,
+      "outputTokens": 500,
+      "costUsd": 0.013695,
+      "ttftMs": 3497,
+      "totalMs": 3497,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 240,
+      "outputTokens": 512,
+      "costUsd": 0.013999999999999999,
+      "ttftMs": 982,
+      "totalMs": 982,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 181,
+      "outputTokens": 462,
+      "costUsd": 0.012454999999999999,
+      "ttftMs": 1890,
+      "totalMs": 1890,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 259,
+      "outputTokens": 485,
+      "costUsd": 0.013420000000000001,
+      "ttftMs": 1991,
+      "totalMs": 1991,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 222,
+      "outputTokens": 471,
+      "costUsd": 0.012885,
+      "ttftMs": 2992,
+      "totalMs": 2992,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 208,
+      "outputTokens": 421,
+      "costUsd": 0.011564999999999999,
+      "ttftMs": 2550,
+      "totalMs": 2550,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 248,
+      "outputTokens": 499,
+      "costUsd": 0.013715,
+      "ttftMs": 2633,
+      "totalMs": 2633,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 193,
+      "outputTokens": 478,
+      "costUsd": 0.012915000000000001,
+      "ttftMs": 1198,
+      "totalMs": 1198,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 189,
+      "outputTokens": 465,
+      "costUsd": 0.01257,
+      "ttftMs": 1698,
+      "totalMs": 1698,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 244,
+      "outputTokens": 453,
+      "costUsd": 0.012545,
+      "ttftMs": 1422,
+      "totalMs": 1422,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 477,
+      "costUsd": 0.01284,
+      "ttftMs": 2531,
+      "totalMs": 2531,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 182,
+      "outputTokens": 522,
+      "costUsd": 0.01396,
+      "ttftMs": 1935,
+      "totalMs": 1935,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 232,
+      "outputTokens": 445,
+      "costUsd": 0.012284999999999999,
+      "ttftMs": 3456,
+      "totalMs": 3456,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 197,
+      "outputTokens": 443,
+      "costUsd": 0.01206,
+      "ttftMs": 1689,
+      "totalMs": 1689,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 478,
+      "costUsd": 0.012865000000000001,
+      "ttftMs": 2277,
+      "totalMs": 2277,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 238,
+      "outputTokens": 472,
+      "costUsd": 0.01299,
+      "ttftMs": 2056,
+      "totalMs": 2056,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 219,
+      "outputTokens": 434,
+      "costUsd": 0.011945,
+      "ttftMs": 1907,
+      "totalMs": 1907,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 490,
+      "costUsd": 0.013165,
+      "ttftMs": 2610,
+      "totalMs": 2610,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 190,
+      "outputTokens": 424,
+      "costUsd": 0.01155,
+      "ttftMs": 2922,
+      "totalMs": 2922,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 224,
+      "outputTokens": 435,
+      "costUsd": 0.011994999999999999,
+      "ttftMs": 1013,
+      "totalMs": 1013,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 239,
+      "outputTokens": 500,
+      "costUsd": 0.013695,
+      "ttftMs": 3497,
+      "totalMs": 3497,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 240,
+      "outputTokens": 512,
+      "costUsd": 0.013999999999999999,
+      "ttftMs": 982,
+      "totalMs": 982,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 181,
+      "outputTokens": 462,
+      "costUsd": 0.012454999999999999,
+      "ttftMs": 1890,
+      "totalMs": 1890,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 259,
+      "outputTokens": 485,
+      "costUsd": 0.013420000000000001,
+      "ttftMs": 1991,
+      "totalMs": 1991,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 222,
+      "outputTokens": 471,
+      "costUsd": 0.012885,
+      "ttftMs": 2992,
+      "totalMs": 2992,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 208,
+      "outputTokens": 421,
+      "costUsd": 0.011564999999999999,
+      "ttftMs": 2550,
+      "totalMs": 2550,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 248,
+      "outputTokens": 499,
+      "costUsd": 0.013715,
+      "ttftMs": 2633,
+      "totalMs": 2633,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 193,
+      "outputTokens": 478,
+      "costUsd": 0.012915000000000001,
+      "ttftMs": 1198,
+      "totalMs": 1198,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 189,
+      "outputTokens": 465,
+      "costUsd": 0.01257,
+      "ttftMs": 1698,
+      "totalMs": 1698,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 244,
+      "outputTokens": 453,
+      "costUsd": 0.012545,
+      "ttftMs": 1422,
+      "totalMs": 1422,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 477,
+      "costUsd": 0.01284,
+      "ttftMs": 2531,
+      "totalMs": 2531,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 182,
+      "outputTokens": 522,
+      "costUsd": 0.01396,
+      "ttftMs": 1935,
+      "totalMs": 1935,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 232,
+      "outputTokens": 445,
+      "costUsd": 0.012284999999999999,
+      "ttftMs": 3456,
+      "totalMs": 3456,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 197,
+      "outputTokens": 443,
+      "costUsd": 0.01206,
+      "ttftMs": 1689,
+      "totalMs": 1689,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 478,
+      "costUsd": 0.012865000000000001,
+      "ttftMs": 2277,
+      "totalMs": 2277,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 238,
+      "outputTokens": 472,
+      "costUsd": 0.01299,
+      "ttftMs": 2056,
+      "totalMs": 2056,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 219,
+      "outputTokens": 434,
+      "costUsd": 0.011945,
+      "ttftMs": 1907,
+      "totalMs": 1907,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 490,
+      "costUsd": 0.013165,
+      "ttftMs": 2610,
+      "totalMs": 2610,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 190,
+      "outputTokens": 424,
+      "costUsd": 0.01155,
+      "ttftMs": 2922,
+      "totalMs": 2922,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 224,
+      "outputTokens": 435,
+      "costUsd": 0.011994999999999999,
+      "ttftMs": 1013,
+      "totalMs": 1013,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "claude-opus-4-8",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 239,
+      "outputTokens": 500,
+      "costUsd": 0.013695,
+      "ttftMs": 3497,
+      "totalMs": 3497,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 240,
+      "outputTokens": 395,
+      "costUsd": 0.006645,
+      "ttftMs": 2928,
+      "totalMs": 2928,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 181,
+      "outputTokens": 471,
+      "costUsd": 0.007608,
+      "ttftMs": 3265,
+      "totalMs": 3265,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 259,
+      "outputTokens": 476,
+      "costUsd": 0.007917,
+      "ttftMs": 1792,
+      "totalMs": 1792,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 222,
+      "outputTokens": 381,
+      "costUsd": 0.0063809999999999995,
+      "ttftMs": 3126,
+      "totalMs": 3126,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 208,
+      "outputTokens": 485,
+      "costUsd": 0.007899,
+      "ttftMs": 2587,
+      "totalMs": 2587,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 248,
+      "outputTokens": 420,
+      "costUsd": 0.007044,
+      "ttftMs": 1613,
+      "totalMs": 1613,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 193,
+      "outputTokens": 466,
+      "costUsd": 0.007568999999999999,
+      "ttftMs": 1558,
+      "totalMs": 1558,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 189,
+      "outputTokens": 416,
+      "costUsd": 0.006807,
+      "ttftMs": 2322,
+      "totalMs": 2322,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 244,
+      "outputTokens": 443,
+      "costUsd": 0.007377,
+      "ttftMs": 2202,
+      "totalMs": 2202,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 418,
+      "costUsd": 0.006819,
+      "ttftMs": 1132,
+      "totalMs": 1132,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 182,
+      "outputTokens": 403,
+      "costUsd": 0.006591,
+      "ttftMs": 2490,
+      "totalMs": 2490,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 232,
+      "outputTokens": 382,
+      "costUsd": 0.006425999999999999,
+      "ttftMs": 1102,
+      "totalMs": 1102,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 197,
+      "outputTokens": 393,
+      "costUsd": 0.0064860000000000004,
+      "ttftMs": 2077,
+      "totalMs": 2077,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 412,
+      "costUsd": 0.006729,
+      "ttftMs": 2484,
+      "totalMs": 2484,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 238,
+      "outputTokens": 413,
+      "costUsd": 0.006909,
+      "ttftMs": 1006,
+      "totalMs": 1006,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 219,
+      "outputTokens": 420,
+      "costUsd": 0.006957,
+      "ttftMs": 1986,
+      "totalMs": 1986,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 414,
+      "costUsd": 0.006758999999999999,
+      "ttftMs": 2357,
+      "totalMs": 2357,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 190,
+      "outputTokens": 396,
+      "costUsd": 0.00651,
+      "ttftMs": 1168,
+      "totalMs": 1168,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 224,
+      "outputTokens": 418,
+      "costUsd": 0.006942,
+      "ttftMs": 3196,
+      "totalMs": 3196,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 239,
+      "outputTokens": 454,
+      "costUsd": 0.007527,
+      "ttftMs": 1401,
+      "totalMs": 1401,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 240,
+      "outputTokens": 395,
+      "costUsd": 0.006645,
+      "ttftMs": 2928,
+      "totalMs": 2928,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 181,
+      "outputTokens": 471,
+      "costUsd": 0.007608,
+      "ttftMs": 3265,
+      "totalMs": 3265,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 259,
+      "outputTokens": 476,
+      "costUsd": 0.007917,
+      "ttftMs": 1792,
+      "totalMs": 1792,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 222,
+      "outputTokens": 381,
+      "costUsd": 0.0063809999999999995,
+      "ttftMs": 3126,
+      "totalMs": 3126,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 208,
+      "outputTokens": 485,
+      "costUsd": 0.007899,
+      "ttftMs": 2587,
+      "totalMs": 2587,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 248,
+      "outputTokens": 420,
+      "costUsd": 0.007044,
+      "ttftMs": 1613,
+      "totalMs": 1613,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 193,
+      "outputTokens": 466,
+      "costUsd": 0.007568999999999999,
+      "ttftMs": 1558,
+      "totalMs": 1558,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 189,
+      "outputTokens": 416,
+      "costUsd": 0.006807,
+      "ttftMs": 2322,
+      "totalMs": 2322,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 244,
+      "outputTokens": 443,
+      "costUsd": 0.007377,
+      "ttftMs": 2202,
+      "totalMs": 2202,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 418,
+      "costUsd": 0.006819,
+      "ttftMs": 1132,
+      "totalMs": 1132,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 182,
+      "outputTokens": 403,
+      "costUsd": 0.006591,
+      "ttftMs": 2490,
+      "totalMs": 2490,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 232,
+      "outputTokens": 382,
+      "costUsd": 0.006425999999999999,
+      "ttftMs": 1102,
+      "totalMs": 1102,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 197,
+      "outputTokens": 393,
+      "costUsd": 0.0064860000000000004,
+      "ttftMs": 2077,
+      "totalMs": 2077,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 412,
+      "costUsd": 0.006729,
+      "ttftMs": 2484,
+      "totalMs": 2484,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 238,
+      "outputTokens": 413,
+      "costUsd": 0.006909,
+      "ttftMs": 1006,
+      "totalMs": 1006,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 219,
+      "outputTokens": 420,
+      "costUsd": 0.006957,
+      "ttftMs": 1986,
+      "totalMs": 1986,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 414,
+      "costUsd": 0.006758999999999999,
+      "ttftMs": 2357,
+      "totalMs": 2357,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 190,
+      "outputTokens": 396,
+      "costUsd": 0.00651,
+      "ttftMs": 1168,
+      "totalMs": 1168,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 224,
+      "outputTokens": 418,
+      "costUsd": 0.006942,
+      "ttftMs": 3196,
+      "totalMs": 3196,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 239,
+      "outputTokens": 454,
+      "costUsd": 0.007527,
+      "ttftMs": 1401,
+      "totalMs": 1401,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 240,
+      "outputTokens": 395,
+      "costUsd": 0.006645,
+      "ttftMs": 2928,
+      "totalMs": 2928,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 181,
+      "outputTokens": 471,
+      "costUsd": 0.007608,
+      "ttftMs": 3265,
+      "totalMs": 3265,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 259,
+      "outputTokens": 476,
+      "costUsd": 0.007917,
+      "ttftMs": 1792,
+      "totalMs": 1792,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 222,
+      "outputTokens": 381,
+      "costUsd": 0.0063809999999999995,
+      "ttftMs": 3126,
+      "totalMs": 3126,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 208,
+      "outputTokens": 485,
+      "costUsd": 0.007899,
+      "ttftMs": 2587,
+      "totalMs": 2587,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 248,
+      "outputTokens": 420,
+      "costUsd": 0.007044,
+      "ttftMs": 1613,
+      "totalMs": 1613,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 193,
+      "outputTokens": 466,
+      "costUsd": 0.007568999999999999,
+      "ttftMs": 1558,
+      "totalMs": 1558,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 189,
+      "outputTokens": 416,
+      "costUsd": 0.006807,
+      "ttftMs": 2322,
+      "totalMs": 2322,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 244,
+      "outputTokens": 443,
+      "costUsd": 0.007377,
+      "ttftMs": 2202,
+      "totalMs": 2202,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 418,
+      "costUsd": 0.006819,
+      "ttftMs": 1132,
+      "totalMs": 1132,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 182,
+      "outputTokens": 403,
+      "costUsd": 0.006591,
+      "ttftMs": 2490,
+      "totalMs": 2490,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 232,
+      "outputTokens": 382,
+      "costUsd": 0.006425999999999999,
+      "ttftMs": 1102,
+      "totalMs": 1102,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 197,
+      "outputTokens": 393,
+      "costUsd": 0.0064860000000000004,
+      "ttftMs": 2077,
+      "totalMs": 2077,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 412,
+      "costUsd": 0.006729,
+      "ttftMs": 2484,
+      "totalMs": 2484,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 238,
+      "outputTokens": 413,
+      "costUsd": 0.006909,
+      "ttftMs": 1006,
+      "totalMs": 1006,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 219,
+      "outputTokens": 420,
+      "costUsd": 0.006957,
+      "ttftMs": 1986,
+      "totalMs": 1986,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 414,
+      "costUsd": 0.006758999999999999,
+      "ttftMs": 2357,
+      "totalMs": 2357,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 190,
+      "outputTokens": 396,
+      "costUsd": 0.00651,
+      "ttftMs": 1168,
+      "totalMs": 1168,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 224,
+      "outputTokens": 418,
+      "costUsd": 0.006942,
+      "ttftMs": 3196,
+      "totalMs": 3196,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "claude-sonnet-4-6",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 239,
+      "outputTokens": 454,
+      "costUsd": 0.007527,
+      "ttftMs": 1401,
+      "totalMs": 1401,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 240,
+      "outputTokens": 448,
+      "costUsd": 0.0023899999999999998,
+      "ttftMs": 1930,
+      "totalMs": 1930,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 181,
+      "outputTokens": 367,
+      "costUsd": 0.0019481249999999998,
+      "ttftMs": 1932,
+      "totalMs": 1932,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 259,
+      "outputTokens": 418,
+      "costUsd": 0.0022518750000000004,
+      "ttftMs": 2421,
+      "totalMs": 2421,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 222,
+      "outputTokens": 412,
+      "costUsd": 0.0021987499999999997,
+      "ttftMs": 2204,
+      "totalMs": 2204,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 208,
+      "outputTokens": 381,
+      "costUsd": 0.002035,
+      "ttftMs": 3015,
+      "totalMs": 3015,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 248,
+      "outputTokens": 391,
+      "costUsd": 0.0021100000000000003,
+      "ttftMs": 2499,
+      "totalMs": 2499,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 193,
+      "outputTokens": 449,
+      "costUsd": 0.002365625,
+      "ttftMs": 991,
+      "totalMs": 991,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 189,
+      "outputTokens": 401,
+      "costUsd": 0.002123125,
+      "ttftMs": 1005,
+      "totalMs": 1005,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 244,
+      "outputTokens": 432,
+      "costUsd": 0.0023125,
+      "ttftMs": 3420,
+      "totalMs": 3420,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 379,
+      "costUsd": 0.002009375,
+      "ttftMs": 2681,
+      "totalMs": 2681,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 182,
+      "outputTokens": 373,
+      "costUsd": 0.00197875,
+      "ttftMs": 3397,
+      "totalMs": 3397,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 232,
+      "outputTokens": 375,
+      "costUsd": 0.00202,
+      "ttftMs": 1284,
+      "totalMs": 1284,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 197,
+      "outputTokens": 388,
+      "costUsd": 0.002063125,
+      "ttftMs": 1594,
+      "totalMs": 1594,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 437,
+      "costUsd": 0.0022993749999999998,
+      "ttftMs": 1383,
+      "totalMs": 1383,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 238,
+      "outputTokens": 385,
+      "costUsd": 0.00207375,
+      "ttftMs": 2391,
+      "totalMs": 2391,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 219,
+      "outputTokens": 411,
+      "costUsd": 0.002191875,
+      "ttftMs": 1970,
+      "totalMs": 1970,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 399,
+      "costUsd": 0.0021093749999999997,
+      "ttftMs": 1549,
+      "totalMs": 1549,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 190,
+      "outputTokens": 365,
+      "costUsd": 0.0019437499999999997,
+      "ttftMs": 1370,
+      "totalMs": 1370,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 224,
+      "outputTokens": 460,
+      "costUsd": 0.00244,
+      "ttftMs": 2063,
+      "totalMs": 2063,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "gpt-5",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 239,
+      "outputTokens": 418,
+      "costUsd": 0.0022393750000000005,
+      "ttftMs": 2639,
+      "totalMs": 2639,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 240,
+      "outputTokens": 448,
+      "costUsd": 0.0023899999999999998,
+      "ttftMs": 1930,
+      "totalMs": 1930,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 181,
+      "outputTokens": 367,
+      "costUsd": 0.0019481249999999998,
+      "ttftMs": 1932,
+      "totalMs": 1932,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 259,
+      "outputTokens": 418,
+      "costUsd": 0.0022518750000000004,
+      "ttftMs": 2421,
+      "totalMs": 2421,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 222,
+      "outputTokens": 412,
+      "costUsd": 0.0021987499999999997,
+      "ttftMs": 2204,
+      "totalMs": 2204,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 208,
+      "outputTokens": 381,
+      "costUsd": 0.002035,
+      "ttftMs": 3015,
+      "totalMs": 3015,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 248,
+      "outputTokens": 391,
+      "costUsd": 0.0021100000000000003,
+      "ttftMs": 2499,
+      "totalMs": 2499,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 193,
+      "outputTokens": 449,
+      "costUsd": 0.002365625,
+      "ttftMs": 991,
+      "totalMs": 991,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 189,
+      "outputTokens": 401,
+      "costUsd": 0.002123125,
+      "ttftMs": 1005,
+      "totalMs": 1005,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 244,
+      "outputTokens": 432,
+      "costUsd": 0.0023125,
+      "ttftMs": 3420,
+      "totalMs": 3420,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 379,
+      "costUsd": 0.002009375,
+      "ttftMs": 2681,
+      "totalMs": 2681,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 182,
+      "outputTokens": 373,
+      "costUsd": 0.00197875,
+      "ttftMs": 3397,
+      "totalMs": 3397,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 232,
+      "outputTokens": 375,
+      "costUsd": 0.00202,
+      "ttftMs": 1284,
+      "totalMs": 1284,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 197,
+      "outputTokens": 388,
+      "costUsd": 0.002063125,
+      "ttftMs": 1594,
+      "totalMs": 1594,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 437,
+      "costUsd": 0.0022993749999999998,
+      "ttftMs": 1383,
+      "totalMs": 1383,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 238,
+      "outputTokens": 385,
+      "costUsd": 0.00207375,
+      "ttftMs": 2391,
+      "totalMs": 2391,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 219,
+      "outputTokens": 411,
+      "costUsd": 0.002191875,
+      "ttftMs": 1970,
+      "totalMs": 1970,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 399,
+      "costUsd": 0.0021093749999999997,
+      "ttftMs": 1549,
+      "totalMs": 1549,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 190,
+      "outputTokens": 365,
+      "costUsd": 0.0019437499999999997,
+      "ttftMs": 1370,
+      "totalMs": 1370,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 224,
+      "outputTokens": 460,
+      "costUsd": 0.00244,
+      "ttftMs": 2063,
+      "totalMs": 2063,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "gpt-5",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 239,
+      "outputTokens": 418,
+      "costUsd": 0.0022393750000000005,
+      "ttftMs": 2639,
+      "totalMs": 2639,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 240,
+      "outputTokens": 448,
+      "costUsd": 0.0023899999999999998,
+      "ttftMs": 1930,
+      "totalMs": 1930,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 181,
+      "outputTokens": 367,
+      "costUsd": 0.0019481249999999998,
+      "ttftMs": 1932,
+      "totalMs": 1932,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 259,
+      "outputTokens": 418,
+      "costUsd": 0.0022518750000000004,
+      "ttftMs": 2421,
+      "totalMs": 2421,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 222,
+      "outputTokens": 412,
+      "costUsd": 0.0021987499999999997,
+      "ttftMs": 2204,
+      "totalMs": 2204,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 208,
+      "outputTokens": 381,
+      "costUsd": 0.002035,
+      "ttftMs": 3015,
+      "totalMs": 3015,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 248,
+      "outputTokens": 391,
+      "costUsd": 0.0021100000000000003,
+      "ttftMs": 2499,
+      "totalMs": 2499,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 193,
+      "outputTokens": 449,
+      "costUsd": 0.002365625,
+      "ttftMs": 991,
+      "totalMs": 991,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 189,
+      "outputTokens": 401,
+      "costUsd": 0.002123125,
+      "ttftMs": 1005,
+      "totalMs": 1005,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 244,
+      "outputTokens": 432,
+      "costUsd": 0.0023125,
+      "ttftMs": 3420,
+      "totalMs": 3420,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 379,
+      "costUsd": 0.002009375,
+      "ttftMs": 2681,
+      "totalMs": 2681,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 182,
+      "outputTokens": 373,
+      "costUsd": 0.00197875,
+      "ttftMs": 3397,
+      "totalMs": 3397,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 232,
+      "outputTokens": 375,
+      "costUsd": 0.00202,
+      "ttftMs": 1284,
+      "totalMs": 1284,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 197,
+      "outputTokens": 388,
+      "costUsd": 0.002063125,
+      "ttftMs": 1594,
+      "totalMs": 1594,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 437,
+      "costUsd": 0.0022993749999999998,
+      "ttftMs": 1383,
+      "totalMs": 1383,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 238,
+      "outputTokens": 385,
+      "costUsd": 0.00207375,
+      "ttftMs": 2391,
+      "totalMs": 2391,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 219,
+      "outputTokens": 411,
+      "costUsd": 0.002191875,
+      "ttftMs": 1970,
+      "totalMs": 1970,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 399,
+      "costUsd": 0.0021093749999999997,
+      "ttftMs": 1549,
+      "totalMs": 1549,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 190,
+      "outputTokens": 365,
+      "costUsd": 0.0019437499999999997,
+      "ttftMs": 1370,
+      "totalMs": 1370,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 224,
+      "outputTokens": 460,
+      "costUsd": 0.00244,
+      "ttftMs": 2063,
+      "totalMs": 2063,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "gpt-5",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 239,
+      "outputTokens": 418,
+      "costUsd": 0.0022393750000000005,
+      "ttftMs": 2639,
+      "totalMs": 2639,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 240,
+      "outputTokens": 384,
+      "costUsd": 0.001032,
+      "ttftMs": 3328,
+      "totalMs": 3328,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 181,
+      "outputTokens": 323,
+      "costUsd": 0.0008617999999999999,
+      "ttftMs": 1889,
+      "totalMs": 1889,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 259,
+      "outputTokens": 385,
+      "costUsd": 0.0010402,
+      "ttftMs": 1371,
+      "totalMs": 1371,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 222,
+      "outputTokens": 371,
+      "costUsd": 0.0009941,
+      "ttftMs": 1396,
+      "totalMs": 1396,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 208,
+      "outputTokens": 333,
+      "costUsd": 0.0008949,
+      "ttftMs": 2812,
+      "totalMs": 2812,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 248,
+      "outputTokens": 356,
+      "costUsd": 0.0009643999999999999,
+      "ttftMs": 1790,
+      "totalMs": 1790,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 193,
+      "outputTokens": 380,
+      "costUsd": 0.0010079000000000002,
+      "ttftMs": 3469,
+      "totalMs": 3469,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 189,
+      "outputTokens": 377,
+      "costUsd": 0.0009992,
+      "ttftMs": 2210,
+      "totalMs": 2210,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 244,
+      "outputTokens": 366,
+      "costUsd": 0.0009882,
+      "ttftMs": 3337,
+      "totalMs": 3337,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 350,
+      "costUsd": 0.0009299,
+      "ttftMs": 2322,
+      "totalMs": 2322,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 182,
+      "outputTokens": 401,
+      "costUsd": 0.0010570999999999998,
+      "ttftMs": 2340,
+      "totalMs": 2340,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 232,
+      "outputTokens": 361,
+      "costUsd": 0.0009720999999999999,
+      "ttftMs": 3239,
+      "totalMs": 3239,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 197,
+      "outputTokens": 388,
+      "costUsd": 0.0010291,
+      "ttftMs": 2520,
+      "totalMs": 2520,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 391,
+      "costUsd": 0.0010324000000000002,
+      "ttftMs": 2563,
+      "totalMs": 2563,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 238,
+      "outputTokens": 351,
+      "costUsd": 0.0009489,
+      "ttftMs": 2888,
+      "totalMs": 2888,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 219,
+      "outputTokens": 338,
+      "costUsd": 0.0009107,
+      "ttftMs": 2583,
+      "totalMs": 2583,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 323,
+      "costUsd": 0.0008623999999999999,
+      "ttftMs": 2815,
+      "totalMs": 2815,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 190,
+      "outputTokens": 372,
+      "costUsd": 0.000987,
+      "ttftMs": 1288,
+      "totalMs": 1288,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 224,
+      "outputTokens": 306,
+      "costUsd": 0.0008322000000000001,
+      "ttftMs": 2770,
+      "totalMs": 2770,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "minimal",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 239,
+      "outputTokens": 340,
+      "costUsd": 0.0009217,
+      "ttftMs": 1589,
+      "totalMs": 1589,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 240,
+      "outputTokens": 384,
+      "costUsd": 0.001032,
+      "ttftMs": 3328,
+      "totalMs": 3328,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 181,
+      "outputTokens": 323,
+      "costUsd": 0.0008617999999999999,
+      "ttftMs": 1889,
+      "totalMs": 1889,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 259,
+      "outputTokens": 385,
+      "costUsd": 0.0010402,
+      "ttftMs": 1371,
+      "totalMs": 1371,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 222,
+      "outputTokens": 371,
+      "costUsd": 0.0009941,
+      "ttftMs": 1396,
+      "totalMs": 1396,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 208,
+      "outputTokens": 333,
+      "costUsd": 0.0008949,
+      "ttftMs": 2812,
+      "totalMs": 2812,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 248,
+      "outputTokens": 356,
+      "costUsd": 0.0009643999999999999,
+      "ttftMs": 1790,
+      "totalMs": 1790,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 193,
+      "outputTokens": 380,
+      "costUsd": 0.0010079000000000002,
+      "ttftMs": 3469,
+      "totalMs": 3469,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 189,
+      "outputTokens": 377,
+      "costUsd": 0.0009992,
+      "ttftMs": 2210,
+      "totalMs": 2210,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 244,
+      "outputTokens": 366,
+      "costUsd": 0.0009882,
+      "ttftMs": 3337,
+      "totalMs": 3337,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 350,
+      "costUsd": 0.0009299,
+      "ttftMs": 2322,
+      "totalMs": 2322,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 182,
+      "outputTokens": 401,
+      "costUsd": 0.0010570999999999998,
+      "ttftMs": 2340,
+      "totalMs": 2340,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 232,
+      "outputTokens": 361,
+      "costUsd": 0.0009720999999999999,
+      "ttftMs": 3239,
+      "totalMs": 3239,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 197,
+      "outputTokens": 388,
+      "costUsd": 0.0010291,
+      "ttftMs": 2520,
+      "totalMs": 2520,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 391,
+      "costUsd": 0.0010324000000000002,
+      "ttftMs": 2563,
+      "totalMs": 2563,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 238,
+      "outputTokens": 351,
+      "costUsd": 0.0009489,
+      "ttftMs": 2888,
+      "totalMs": 2888,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 219,
+      "outputTokens": 338,
+      "costUsd": 0.0009107,
+      "ttftMs": 2583,
+      "totalMs": 2583,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 323,
+      "costUsd": 0.0008623999999999999,
+      "ttftMs": 2815,
+      "totalMs": 2815,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 190,
+      "outputTokens": 372,
+      "costUsd": 0.000987,
+      "ttftMs": 1288,
+      "totalMs": 1288,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 224,
+      "outputTokens": 306,
+      "costUsd": 0.0008322000000000001,
+      "ttftMs": 2770,
+      "totalMs": 2770,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "claude-md-strict",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 239,
+      "outputTokens": 340,
+      "costUsd": 0.0009217,
+      "ttftMs": 1589,
+      "totalMs": 1589,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/count-vowels",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 240,
+      "outputTokens": 384,
+      "costUsd": 0.001032,
+      "ttftMs": 3328,
+      "totalMs": 3328,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/fizzbuzz",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 181,
+      "outputTokens": 323,
+      "costUsd": 0.0008617999999999999,
+      "ttftMs": 1889,
+      "totalMs": 1889,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/flatten-array",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 259,
+      "outputTokens": 385,
+      "costUsd": 0.0010402,
+      "ttftMs": 1371,
+      "totalMs": 1371,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/is-palindrome",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 222,
+      "outputTokens": 371,
+      "costUsd": 0.0009941,
+      "ttftMs": 1396,
+      "totalMs": 1396,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/max-subarray",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 208,
+      "outputTokens": 333,
+      "costUsd": 0.0008949,
+      "ttftMs": 2812,
+      "totalMs": 2812,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/reverse-string",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 248,
+      "outputTokens": 356,
+      "costUsd": 0.0009643999999999999,
+      "ttftMs": 1790,
+      "totalMs": 1790,
+      "temperature": 0
+    },
+    {
+      "taskId": "easy/two-sum",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 193,
+      "outputTokens": 380,
+      "costUsd": 0.0010079000000000002,
+      "ttftMs": 3469,
+      "totalMs": 3469,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/fix-group-by",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 189,
+      "outputTokens": 377,
+      "costUsd": 0.0009992,
+      "ttftMs": 2210,
+      "totalMs": 2210,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/median-two-sorted",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 244,
+      "outputTokens": 366,
+      "costUsd": 0.0009882,
+      "ttftMs": 3337,
+      "totalMs": 3337,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/serialize-deserialize-bst",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 350,
+      "costUsd": 0.0009299,
+      "ttftMs": 2322,
+      "totalMs": 2322,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/trapping-rain-water",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 182,
+      "outputTokens": 401,
+      "costUsd": 0.0010570999999999998,
+      "ttftMs": 2340,
+      "totalMs": 2340,
+      "temperature": 0
+    },
+    {
+      "taskId": "hard/word-break",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 232,
+      "outputTokens": 361,
+      "costUsd": 0.0009720999999999999,
+      "ttftMs": 3239,
+      "totalMs": 3239,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/binary-search",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 197,
+      "outputTokens": 388,
+      "costUsd": 0.0010291,
+      "ttftMs": 2520,
+      "totalMs": 2520,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/group-anagrams",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 183,
+      "outputTokens": 391,
+      "costUsd": 0.0010324000000000002,
+      "ttftMs": 2563,
+      "totalMs": 2563,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/longest-substring",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 238,
+      "outputTokens": 351,
+      "costUsd": 0.0009489,
+      "ttftMs": 2888,
+      "totalMs": 2888,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/lru-cache",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 219,
+      "outputTokens": 338,
+      "costUsd": 0.0009107,
+      "ttftMs": 2583,
+      "totalMs": 2583,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/merge-intervals",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 183,
+      "outputTokens": 323,
+      "costUsd": 0.0008623999999999999,
+      "ttftMs": 2815,
+      "totalMs": 2815,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/product-except-self",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": false,
+          "timedOut": false,
+          "errorKind": "assertion"
+        }
+      ],
+      "n": 1,
+      "c": 0,
+      "inputTokens": 190,
+      "outputTokens": 372,
+      "costUsd": 0.000987,
+      "ttftMs": 1288,
+      "totalMs": 1288,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/refactor-sum-evens",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 224,
+      "outputTokens": 306,
+      "costUsd": 0.0008322000000000001,
+      "ttftMs": 2770,
+      "totalMs": 2770,
+      "temperature": 0
+    },
+    {
+      "taskId": "medium/valid-parentheses",
+      "modelId": "gemini-2.5-flash",
+      "promptConfigId": "chain-of-thought",
+      "samples": [
+        {
+          "code": "…",
+          "passed": true,
+          "timedOut": false
+        }
+      ],
+      "n": 1,
+      "c": 1,
+      "inputTokens": 239,
+      "outputTokens": 340,
+      "costUsd": 0.0009217,
+      "ttftMs": 1589,
+      "totalMs": 1589,
+      "temperature": 0
+    }
+  ]
+}
